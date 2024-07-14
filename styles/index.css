@@ -49,6 +49,14 @@ nav span{
 #banner{
      display: flex;
      padding-left: 150px;
+     background-image: url( '../images/header_bg.png');
+     background-repeat: no-repeat;
+     background-position: bottom right;
+     justify-content: space-between;
+     background-image: url('../images/developer.png');
+     background-position: bottom left;
+     max-height: fit-content;
+   
      
      
 }
@@ -64,5 +72,56 @@ nav span{
      color: white; 
 }
 .banner-img{
-      background-image: url('');
+      /* width: 500px; */
+      margin-right: 100px;
+}
+.banner-title{
+    font-size: 45px;
+    font-weight: 600px;
+}
+.banner-content{
+    margin-top: 50px;
+    max-width: 500px;
+}
+
+/* about section related styles */
+
+#about{
+      text-align: center;
+      background-color: rgb(183, 206, 198);
+      padding: 30px;
+      margin: 100px;
+
+}
+.contact{
+     display: flex;
+     justify-content: center;
+     gap: 50px;
+}
+.contact h2{
+    font-size: 25px;
+}
+.contact h5{
+    font-size: 20px;
+    color: white;
+}
+
+/* What I do section style */
+.What{
+    text-align: center;
+    padding: 30px;
+    margin: 100px;
+
+}
+.card-container{
+     display: flex;
+     gap: 10px;
+     margin-top: 50px;
+}
+.card{
+    width: 350px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
 }
