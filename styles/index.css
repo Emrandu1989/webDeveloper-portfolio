@@ -6,6 +6,9 @@ body{
     padding-left: 50px;
     font-family: "Open Sans", sans-serif;
 }
+header{
+    background-color: beige;
+}
 nav{
      display: flex;
      justify-content: space-between;
@@ -39,4 +42,27 @@ nav span{
      color: white;
      border: none;
      border-radius: 5px;
+}
+
+/* banner section styles */
+
+#banner{
+     display: flex;
+     padding-left: 150px;
+     
+     
+}
+.btn-primary{
+    background-color: orangered;
+    margin-right: 20px;
+    padding: 5px;
+    color: white;
+}
+.contact-btn{
+     padding: 5px;
+     background-color: cadetblue;
+     color: white; 
+}
+.banner-img{
+      background-image: url('');
 }
