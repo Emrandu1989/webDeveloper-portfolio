@@ -125,3 +125,32 @@ nav span{
     padding: 20px;
     border-radius: 5px;
 }
+
+/* resume section styles */
+.resume-container{
+       text-align: center;
+       margin-left: 100px;
+       margin-right: 100px;
+       padding-left: 50px;
+       padding-right: 50px;
+}
+.resume-container h1{
+     color: green;
+}
+
+.resume-container h2{
+     color: rgb(108, 122, 118);
+}
+.resume-container h5{
+     color: orangered
+}
+.resume-container h6{
+     color: rgb(74, 106, 119)
+}
+.resume-container p{
+     color: gray
+}
+.resume-content{
+    display: flex;
+    gap: 10px;
+}
